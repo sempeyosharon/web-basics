@@ -1,0 +1,131 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .body-background {
+    
+        background: green;
+        padding: 20px;
+    }
+    
+    .container {
+        margin-top: 50px;
+      
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #ac42c6;
+        height: 450px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    .image{
+        border: 5px solid #ac42c6;
+        width: 94%;
+        object-fit: contain;
+        transform: rotate(180deg);margin-left: 10px;
+    }
+    .text{
+        margin-top: -200px;
+        color: rgb(243, 99, 202);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .body-background {
+    
+        background: yellow
+    }
+    
+    .container {
+        margin-left: 25%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ac42c6;
+        height: 450px;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .image{
+        transform: rotate(180deg);margin-left: 10px;
+    }
+    .text{
+        color: rgb(243, 99, 202);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .body-background {
+    
+        background: yellow
+    }
+    
+    .container {
+        margin-left: 25%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ac42c6;
+        height: 450px;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .image{
+        transform: rotate(180deg);margin-left: 10px;
+    }
+    .text{
+        color: rgb(243, 99, 202);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .body-background {
+    
+        background: yellow
+    }
+    
+    .container {
+        margin-left: 25%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ac42c6;
+        height: 450px;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .image{
+        transform: rotate(180deg);margin-left: 10px;
+    }
+    .text{
+        color: rgb(243, 99, 202);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .body-background {
+    
+        background: yellow
+    }
+    
+    .container {
+        margin-left: 25%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ac42c6;
+        height: 450px;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .image{
+        transform: rotate(180deg);margin-left: 10px;
+    }
+    .text{
+        color: rgb(243, 99, 202);
+    }
+}
