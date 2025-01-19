@@ -20,12 +20,14 @@
     }
     .image{
         border: 5px solid #ac42c6;
-        width: 94%;
+        width: 150;
+        border-radius: 15px;
         object-fit: contain;
         transform: rotate(180deg);margin-left: 10px;
     }
     .text{
         margin-top: -200px;
+        margin-left:100px ;
         color: rgb(243, 99, 202);
     }
 }
